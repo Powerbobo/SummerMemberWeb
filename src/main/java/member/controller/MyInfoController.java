@@ -39,7 +39,7 @@ public class MyInfoController extends HttpServlet {
 		String memberId = request.getParameter("member-id");
 		Member member = service.selectOneById(memberId);
 		request.setAttribute("member", member);
-		RequestDispatcher view = request.getRequestDispatcher("/member/myinfo.jsp");
+		RequestDispatcher view = request.getRequestDispatcher("/WEB-INF/views/member/myinfo.jsp");
 		view.forward(request, response);
 		
 		// 2. without Data(단순 페이지 이동)

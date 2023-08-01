@@ -38,8 +38,8 @@
 						<input type="hidden" id="member-gender" name="member-gender" value="${ member.memberGender }">
 						<c:if test="${ member.memberGender eq 'M' }">남자</c:if>
 						<c:if test="${ member.memberGender eq 'F' }">여자</c:if>
-<!-- 						 남<input type="radio" id="member-gender" name="member-gender" value="M"> -->
-<!-- 						 여<input type="radio" id="member-gender" name="member-gender" value="F"> -->
+						 남<input type="radio" id="member-gender" name="member-gender" value="M">
+						 여<input type="radio" id="member-gender" name="member-gender" value="	F">
 					</li>
 					<li>
 						<label for="member-email">이메일</label>
