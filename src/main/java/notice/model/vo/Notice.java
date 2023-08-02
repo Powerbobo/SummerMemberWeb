@@ -22,6 +22,13 @@ public class Notice {
 		this.noticeContent = noticeContent;
 	}
 	
+	public Notice(int noticeNo, String noticeSubject, String noticeContent) {
+		super();
+		this.noticeNo = noticeNo;
+		this.noticeSubject = noticeSubject;
+		this.noticeContent = noticeContent;
+	}
+
 	// getter, setter 메소드
 	public int getNoticeNo() {
 		return noticeNo;
